@@ -1,0 +1,95 @@
+body {
+    background: #07132B;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 420px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.logo {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 42px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.question-block h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+textarea {
+    width: 100%;
+    background: rgba(255,255,255,0.1);
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    height: 75px;
+    margin-bottom: 24px;
+    resize: none;
+}
+
+textarea::placeholder {
+    color: #9BA4BD;
+}
+
+button {
+    width: 100%;
+    background: #2ECC71;
+    border: none;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #041024;
+}
+
+/* Movie output view */
+
+.hidden {
+    display: none;
+}
+
+#movieOutputView h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+#movieOutputView p {
+    color: #d4d4d4;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+#againBtn {
+    width: 100%;
+    background: #2ECC71;
+    border: none;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #041024;
+}

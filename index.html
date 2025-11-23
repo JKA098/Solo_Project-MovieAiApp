@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <title>PopChoice movie recomendation by Johan</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main class="container">
+            <!-- QUESTIONS VIEW -->
+            <section id="questionsView">
+                <!-- add src="popcorn.png" -->
+                <img class="logo"  alt="popcorn"> 
+                <h1 class="title">PopChoice </h1>
+
+                <div class="question-block">
+                    <h2>What's your favourite movie and why</h2>
+                    <textarea id="favorite" placeholder="The Shawshank Redemption&#10;Because it taught me to never give up hope no matter how hard life gets"></textarea>
+                </div>
+
+                <div class="question-block">
+                    <h2>Are you in the mood for something new
+                        or a classic?
+                    </h2>
+                    <textarea id="newOrClassic" placeholder="I want to watch movies that were released after 1990"></textarea>
+                    
+                </div>
+                <div class="question-block">
+                    <h2>Do you wanna have fun or do ou want something
+                        serious
+                    </h2>
+                    <textarea id="tone" placeholder="I want to watch something stupid and fun"></textarea>
+                </div>
+
+                <button id="goBtn"> Let's Go</button>
+                    <!-- when you click on it, returns Go Again -->
+            </section>
+            
+
+            <!-- Movie output view -->
+            <section id="movieOutputView" class="hidden">
+                <img class="logo" alt="popcorn">
+                <!-- add src="popcorn.png" -->
+                <h1 class="title">PopChoice</h1>
+
+                <h2 id="movieTitle"></h2>
+                <p id="movieDescription"></p>
+
+                <button id="againBtn">Go Again</button>
+            </section>
+
+        </main>
+        <script type="module" src="index.js"></script>
+    </body>
+</html> 
